@@ -1,11 +1,11 @@
 {
-	"name": "ec-internet/login-as-customer-features",
+	"name": "ecinternet/loginascustomerfeatures",
 	"version": "1.0.0",
 	"description": "Enhances Magento's LoginAsCustomer module",
 	"type": "magento2-module",
 	"require": {
 		"magento/framework": "*",
-		"ecinternet/base": "1.3.2.*"
+		"ecinternet/base": ">=1.3.2"
 	},
 	"license": [
 		"Proprietary"
