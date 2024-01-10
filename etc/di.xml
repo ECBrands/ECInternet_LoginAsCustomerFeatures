@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<!-- Always allow admin to login as a given customer -->
+	<type name="Magento\LoginAsCustomerAssistance\Model\ResourceModel\GetLoginAsCustomerAssistanceAllowed">
+		<plugin name="ecinternet_loginascustomerfeatures-loginascustomerassistance_model_resourcemodel_getloginascustomerassistanceallowed"
+		        type="ECInternet\LoginAsCustomerFeatures\Plugin\Magento\LoginAsCustomerAssistance\Model\ResourceModel\GetLoginAsCustomerAssistanceAllowedPlugin" />
+	</type>
+</config>
