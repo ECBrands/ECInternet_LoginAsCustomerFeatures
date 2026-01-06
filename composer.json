@@ -4,8 +4,8 @@
 	"description": "Enhances Magento's LoginAsCustomer module",
 	"type": "magento2-module",
 	"require": {
-		"magento/framework": "*",
-		"ecinternet/base": ">=1.3.2"
+		"ecinternet/base": "2.4.7.x-dev",
+		"php": "~8.2.0||~8.3.0"
 	},
 	"license": [
 		"Proprietary"
